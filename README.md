@@ -6,9 +6,12 @@
 
 TITAN ist ein modulares, KI-gestütztes Social-Engineering- und Botnet-Framework, inspiriert 
 von Dave Kennedy’s Social-Engineer Toolkit (SET)
+
 und erweitert um Mechaniken und Kompatibilität mit Alien Pimp Botnet sowie moderner
 KI- und Visualisierungsfunktionen.
+
 🚀 Features
+
     Python 3.10+ – Moderne Sprachfeatures und beste Kompatibilität
     Modulare Architektur – Eigene und Community-Module, SET- und Alien Pimp-kompatibel
     Botnet-Mechanik – Verteilter Agentenbetrieb, zentrale Steuerung, verschlüsselte Kommunikation
@@ -22,14 +25,13 @@ KI- und Visualisierungsfunktionen.
 🛠️ Voraussetzungen
     Python 3.10 oder neuer
     pip (Python-Paketmanager)
-
-Python-Pakete (werden automatisch installiert):
     matplotlib
     tkinter (bei vielen Python-Installationen bereits enthalten)
     scikit-learn
     requests
     jan (dein Framework, ggf. als Submodul oder PyPI-Paket)
     weitere Abhängigkeiten siehe requirements.txt
+
 ⚡ Installation
 
 bash
@@ -64,16 +66,19 @@ Die TUI/GUI (tkinter) öffnet sich, und du kannst TITAN direkt bedienen.
 📄 Lizenz
 Apache License 2.0 – Open Source, frei nutzbar und erweiterbar.
 ⚠️ Haftungsausschluss
-TITAN ist ausschließlich für legale Sicherheitsforschung, Penetrationstests und Security-Awareness-Trainings gedacht. Die Nutzung gegen Systeme ohne ausdrückliche Genehmigung ist illegal und wird strafrechtlich verfolgt. Der Entwickler übernimmt keine Haftung für Missbrauch.
+TITAN ist ausschließlich für legale Sicherheitsforschung, Penetrationstests und Security-Awareness-Trainings gedacht.
+Die Nutzung gegen Systeme ohne ausdrückliche Genehmigung ist illegal und wird strafrechtlich verfolgt.
+Der Entwickler übernimmt keine Haftung für Missbrauch.
+
 ✨ Credits
     Dave Kennedy (TrustedSec) – SET-Inspiration
     Alien Pimp – Botnet-Mechanik
     JAN – KI- und Automatisierungsintegration
     Security Community – für Forschung, Entwicklung und Open Source
-💡 Mitmachen
 
+💡 Mitmachen
 Pull Requests, neue Module und Ideen sind willkommen!
-Siehe [CONTRIBUTING.md] für Details.
+
 
 TITAN – The Next Generation Social Engineering, KI & Botnet Framework
 „Inspired by Kennedy, powered by the community.“
