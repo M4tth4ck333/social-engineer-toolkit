@@ -51,20 +51,25 @@ Die TUI/GUI (tkinter) öffnet sich, und du kannst TITAN direkt bedienen.
     Kompatibel mit SET- und Alien Pimp-Modulen.
     KI-Module können scikit-learn nutzen (z. B. für Phishing-Erkennung, Bot-Verhalten, Netzwerk-Klassifikation).
     Visualisierung und Monitoring via matplotlib und tkinter-Dashboard.
+
 🤖 Botnet-Mechanik
     Controller: Zentrale Steuerung (GUI/TUI, API)
     Agents: Verteilt, leichtgewichtig, empfangen Aufgaben (z. B. Website-Kloning, Payload-Delivery, Scans)
     Kommunikation: Verschlüsselt (z. B. HTTPS, WebSocket)
     Kompatibilität: Alien Pimp-Mechanik und Protokolle werden unterstützt
+
 📊 Visualisierung & KI
     matplotlib: Netzwerkgraphen, Kampagnenverlauf, Cluster-Analysen, Heatmaps
     scikit-learn: ML-Modelle für Anomalieerkennung, Klassifikation, Clustering
     tkinter: Eigene Dashboards und Steuerelemente
+
 🔗 JAN-Integration
     Direkte Anbindung an das JAN-Framework für automatisierte Analysen, Empfehlungen und Reporting.
     Beispiel: Netzwerkdaten an JAN senden, KI-gestützte Scan-Strategien erhalten und direkt visualisieren.
+
 📄 Lizenz
 Apache License 2.0 – Open Source, frei nutzbar und erweiterbar.
+
 ⚠️ Haftungsausschluss
 TITAN ist ausschließlich für legale Sicherheitsforschung, Penetrationstests und Security-Awareness-Trainings gedacht.
 Die Nutzung gegen Systeme ohne ausdrückliche Genehmigung ist illegal und wird strafrechtlich verfolgt.
