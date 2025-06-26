@@ -1,67 +1,79 @@
 # The Social-Engineer Toolkit (SET)
-* Copyright :copyright: 2020
+* based on the work of 
 * Written by: David Kennedy (ReL1K) @HackingDave 
 * Company: [TrustedSec](https://www.trustedsec.com)
+#TITAN
 
-<br/>
+TITAN ist ein modulares, KI-gestütztes Social-Engineering- und Botnet-Framework, inspiriert 
+von Dave Kennedy’s Social-Engineer Toolkit (SET)
+und erweitert um Mechaniken und Kompatibilität mit Alien Pimp Botnet sowie moderner
+KI- und Visualisierungsfunktionen.
+🚀 Features
+    Python 3.10+ – Moderne Sprachfeatures und beste Kompatibilität
+    Modulare Architektur – Eigene und Community-Module, SET- und Alien Pimp-kompatibel
+    Botnet-Mechanik – Verteilter Agentenbetrieb, zentrale Steuerung, verschlüsselte Kommunikation
+    Website-Kloning & Credential Harvesting – Automatisiertes Klonen, Anpassen und Bereitstellen von Webinterfaces
+    KI-/ML-Analysen – Mit scikit-learn für Mustererkennung, Anomalie-Detektion, Clustering
+    Visualisierung – Netzwerk- und Kampagnen-Visualisierung mit matplotlib
+    Eigene TUI/GUI – Basierend auf tkinter für einfache Bedienung und Monitoring
+    JAN-Integration – Anbindung an das JAN-Framework für weitere Automatisierung und Analyse
+    Apache 2.0 Lizenz – Frei, offen, für die Community
 
-## Description
-The Social-Engineer Toolkit is an open-source penetration testing framework designed for social engineering. SET has a number of custom attack vectors that allow you to make a believable attack quickly. SET is a product of TrustedSec, LLC – an information security consulting firm located in Cleveland, Ohio.
+🛠️ Voraussetzungen
+    Python 3.10 oder neuer
+    pip (Python-Paketmanager)
 
-DISCLAIMER: This is *only* for testing purposes and can only be used where strict consent has been given. Do not use this for illegal purposes, period.
-Please read the LICENSE under readme/LICENSE for the licensing of SET. 
+Python-Pakete (werden automatisch installiert):
+    matplotlib
+    tkinter (bei vielen Python-Installationen bereits enthalten)
+    scikit-learn
+    requests
+    jan (dein Framework, ggf. als Submodul oder PyPI-Paket)
+    weitere Abhängigkeiten siehe requirements.txt
+⚡ Installation
 
-#### Supported platforms:
-* Linux
-* Mac OS X (experimental)
+bash
+git clone https://github.com/M4tth4ck33/titan
+cd titan
+pip install -r requirements.txt
 
-# Installation
+🖥️ Starten
 
-## Install via requirements.txt
+bash
+python titan.py
 
-```bash
-pip3 install -r requirements.txt
-python3 setup.py 
-```
+Die TUI/GUI (tkinter) öffnet sich, und du kannst TITAN direkt bedienen.
 
-## Install SET
-=======
-#### Mac OS X
-You will need to use a virtual environment for the Python install if you are using an M2 Macbook with the following instructions in your CLI within the social-engineer-toolkit directory. 
-```bash
-    # to install dependencies, run the following:
-    python3 -m venv path/to/venv
-    source path/to/venv/bin/activate
-    python3 -m pip install -r requirements.txt
+🔌 Module & Erweiterbarkeit
+    Eigene Module einfach im Verzeichnis /modules/ ablegen.
+    Kompatibel mit SET- und Alien Pimp-Modulen.
+    KI-Module können scikit-learn nutzen (z. B. für Phishing-Erkennung, Bot-Verhalten, Netzwerk-Klassifikation).
+    Visualisierung und Monitoring via matplotlib und tkinter-Dashboard.
+🤖 Botnet-Mechanik
+    Controller: Zentrale Steuerung (GUI/TUI, API)
+    Agents: Verteilt, leichtgewichtig, empfangen Aufgaben (z. B. Website-Kloning, Payload-Delivery, Scans)
+    Kommunikation: Verschlüsselt (z. B. HTTPS, WebSocket)
+    Kompatibilität: Alien Pimp-Mechanik und Protokolle werden unterstützt
+📊 Visualisierung & KI
+    matplotlib: Netzwerkgraphen, Kampagnenverlauf, Cluster-Analysen, Heatmaps
+    scikit-learn: ML-Modelle für Anomalieerkennung, Klassifikation, Clustering
+    tkinter: Eigene Dashboards und Steuerelemente
+🔗 JAN-Integration
+    Direkte Anbindung an das JAN-Framework für automatisierte Analysen, Empfehlungen und Reporting.
+    Beispiel: Netzwerkdaten an JAN senden, KI-gestützte Scan-Strategien erhalten und direkt visualisieren.
+📄 Lizenz
+Apache License 2.0 – Open Source, frei nutzbar und erweiterbar.
+⚠️ Haftungsausschluss
+TITAN ist ausschließlich für legale Sicherheitsforschung, Penetrationstests und Security-Awareness-Trainings gedacht. Die Nutzung gegen Systeme ohne ausdrückliche Genehmigung ist illegal und wird strafrechtlich verfolgt. Der Entwickler übernimmt keine Haftung für Missbrauch.
+✨ Credits
+    Dave Kennedy (TrustedSec) – SET-Inspiration
+    Alien Pimp – Botnet-Mechanik
+    JAN – KI- und Automatisierungsintegration
+    Security Community – für Forschung, Entwicklung und Open Source
+💡 Mitmachen
 
-    # to install SET
-    sudo python3 setup.py 
-```
+Pull Requests, neue Module und Ideen sind willkommen!
+Siehe [CONTRIBUTING.md] für Details.
 
-<br/>
-
-## Installation
-#### Windows 10 WSL/WSL2 Kali Linux
-```bash
-sudo apt install set -y
-```
-Kali Linux on Windows 10 is a minimal installation so it doesn't have any tools installed.
-You can easily install Social Engineer Toolkit on WSL/WSL2 without needing pip using the above command.
-
-#### Linux
-```bash
-git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
-cd setoolkit
-pip3 install -r requirements.txt
-python setup.py
-```
-<br/>
-
-## SET Tutorial
-For a full document on how to use SET, [visit the SET user manual](https://github.com/trustedsec/social-engineer-toolkit/raw/master/readme/User_Manual.pdf).
-
-<br/>
-
-## Bugs and enhancements
-For bug reports or enhancements, please open an [issue](https://github.com/trustedsec/social-engineer-toolkit/issues) here.
-<br/>
+TITAN – The Next Generation Social Engineering, KI & Botnet Framework
+„Inspired by Kennedy, powered by the community.“
